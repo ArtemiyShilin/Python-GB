@@ -21,4 +21,4 @@ elif (age > 40 and (50 < weight < 120)):
 elif (age > 50 and ( weight > 120)):
     print(name, surname, age, 'год', weight, 'вес:', '- вы жырный')
 elif ( age < 30 and (10 < weight < 120)):
-    print(name, surname, age, 'год', weight, 'вес:', '- вам нужно срочно покушать')
+    print(name, surname, age, 'год', weight, 'вес:', '- вам нужно срочно покушать ')
