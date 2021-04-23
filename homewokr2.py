@@ -1,8 +1,7 @@
-n = int(input("Введите число:"))
-
-while 0 < n > 10:
-    print("Число не верное")
+while True:
     n = int(input("Введите число:"))
-
-else:
-    print("Возвожу в квадрат", n ** 2)
+    if (0 < n and n < 10):
+        print("Возвожу в квадрат", n ** 2)
+        break
+    else:
+        print('Число не верное')
